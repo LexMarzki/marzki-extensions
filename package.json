@@ -2,8 +2,8 @@
   "name": "@marzki/extensions",
   "version": "1.0.0",
   "description": "Extension methods for reserve types",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "@marzki/extensions/index.js",
+  "types": "@marzki/extensions/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -14,6 +14,10 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LexMarzki/marzki-extensions.git"
   },
   "keywords": [
     "Marzki",
@@ -34,7 +38,7 @@
     "typescript": "^4.5.2"
   },
   "files": [
-    "lib/**/*"
+    "@marzki/extensions/**/*"
   ],
   "dependencies": {
     "date-fns": "^2.27.0"
