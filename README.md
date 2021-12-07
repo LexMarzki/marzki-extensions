@@ -1,11 +1,11 @@
 ## Description
 
-Collection of txtensions for the reserve types.
+Collection of extensions for the reserve types.
 
 ## Installation
 
 ```bash
-$ npm install marzki-extensions
+$ npm install @marzki/extensions
 ```
 
 ## Test
@@ -18,7 +18,7 @@ $ npm run test
 
 ## Stay in touch
 
-- Author - Lex Marzki
+- Author - Lex Marzki <lexmarzki@gmail.com>
 
 ## License
 

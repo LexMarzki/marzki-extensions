@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/LexMarzki/marzki-extensions.git"
   },
+  "bugs": {
+    "url": "https://github.com/LexMarzki/marzki-extensions"
+  },
   "keywords": [
     "Marzki",
     "extensions",
