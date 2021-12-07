@@ -6,5 +6,5 @@
     "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
-    "testPathIgnorePatterns" : ["<rootDir>/@marzki/"]
+    "testPathIgnorePatterns" : ["<rootDir>/bin/"]
 }
