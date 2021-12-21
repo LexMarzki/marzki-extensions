@@ -8,6 +8,14 @@ Collection of extensions for the reserve types.
 $ npm install @marzki/extensions
 ```
 
+## Implementation
+
+Add below script at the top of the .ts file
+
+```js
+import '@marzki/extensions'
+```
+
 ## Test
 
 ```bash
