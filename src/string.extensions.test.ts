@@ -10,4 +10,25 @@ describe('String extensions', () => {
     expect(date.getMonth() + 1).toEqual(12)
     expect(date.getDate()).toEqual(1)
   })
+
+  it('Extract by delimiter first word', () => {
+    const str = 'test@mail.com'
+    const name = str.extract('@')
+    expect(name).toBeDefined()
+    expect(name).toEqual('test')
+  })
+
+  it('Extract by delimiter word after', () => {
+    const str = 'test@mail.com'
+    const name = str.extract('@', Position.after)
+    expect(name).toBeDefined()
+    expect(name).toEqual('mail.com')
+  })
+
+  it('Unable to find delimiter', () => {
+    const str = 'testmail.com'
+    const name = str.extract('@')
+    expect(name).toBeDefined()
+    expect(name.length).toEqual(0)
+  })
 })

@@ -1,6 +1,6 @@
 {
   "name": "@marzki/extensions",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Extension methods for reserve types",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
@@ -13,6 +13,8 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
+    "publish:major": "npm version major --force && npm publish --access public",
+    "publish:minor": "npm version minor --force && npm publish --access public",
     "postversion": "git push && git push --tags"
   },
   "repository": {
