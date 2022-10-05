@@ -2,6 +2,7 @@
 declare global {
   interface String {
     toDate(): Date
+    toDateOnly(): Date
   }
 }
 export {}
